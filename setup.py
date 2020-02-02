@@ -16,7 +16,7 @@ setup(
     keywords = ("pip","VC_cn"),
     description = "Virtual Console",
     long_description = "Virtual Console on Python",
-    license = "None",
+    license = "MIT license",
 
     url = "https://github.com/GLgele/Virtual-Console-cn",
     author = "GLgele",
