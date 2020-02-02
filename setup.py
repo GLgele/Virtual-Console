@@ -15,7 +15,7 @@ setup(
     version = "1.0.0",
     keywords = ("pip","VC_cn"),
     description = "Virtual Console",
-    long_description = "time and path tool",
+    long_description = "Virtual Console on Python",
     license = "None",
 
     url = "https://github.com/GLgele/Virtual-Console-cn",
