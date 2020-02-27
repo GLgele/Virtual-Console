@@ -149,8 +149,8 @@ def vcver(LibName):
     if started():
         print("[信息]硬件版本：",Ver)
         print("[信息]软件版本：",ver)
-        print("[信息]核心：",sys.argv[0])
-        print("[信息]库：",LibName)
+        print("[信息]核心：VClib")#,sys.argv[0])
+        print("[信息]库：VCP")#,LibName)
         print("[信息]控制台版本：",version)
         print("[信息]语言：简体中文")
     else:
