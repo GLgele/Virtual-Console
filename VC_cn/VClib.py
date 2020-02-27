@@ -130,3 +130,15 @@ def exit_():
     else:
         exit()
 
+def help_(str):
+    global Ver
+    global ver
+    global version
+    if started():
+        if str == "":
+            print("该功能还在开发！")
+         else:
+            pass
+    else:
+        printstopped()
+    
