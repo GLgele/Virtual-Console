@@ -130,7 +130,7 @@ def exit_():
     else:
         exit()
 
-def help_(str):
+def help_(str = ""):
     global Ver
     global ver
     global version
