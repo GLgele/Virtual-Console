@@ -137,7 +137,7 @@ def help_(str):
     if started():
         if str == "":
             print("该功能还在开发！")
-         else:
+        else:
             print("该功能还在开发！")
     else:
         printstopped()
@@ -153,5 +153,5 @@ def vcver():
         print("[信息]库：",LibName)
         print("[信息]控制台版本：",version)
         print("[信息]语言：简体中文")
-     else:
+    else:
         printstopped()
