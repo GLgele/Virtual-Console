@@ -138,7 +138,7 @@ def help_(str):
         if str == "":
             print("该功能还在开发！")
          else:
-            pass
+            print("该功能还在开发！")
     else:
         printstopped()
     
