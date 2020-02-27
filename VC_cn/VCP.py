@@ -46,7 +46,7 @@ def commands(stri):
     elif stri == "exit":
         vclib.exit_()
     elif stri == "ver":
-        vclib.vcver()
+        vclib.vcver(sys.argv[0])
     elif stri == "help":
         vclib.help_()
     elif stri == "help copyright":

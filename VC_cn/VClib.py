@@ -142,7 +142,7 @@ def help_(str):
     else:
         printstopped()
     
-def vcver():
+def vcver(Libname):
     global Ver
     global ver
     global version
