@@ -45,6 +45,14 @@ def commands(stri):
         vclib.copyright()
     elif stri == "exit":
         vclib.exit_()
+    elif stri == "ver":
+        vclib.vcver()
+    elif stri == "help":
+        vclib.help_()
+    elif stri == "help copyright":
+        vclib.help_("copyright")
+    elif stri == "help ver":
+        vclib.help_("vcver")
     else:
         print("未知的命令！")
 

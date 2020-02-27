@@ -143,6 +143,9 @@ def help_(str):
         printstopped()
     
 def vcver():
+    global Ver
+    global ver
+    global version
     if started():
         print("[信息]硬件版本：",Ver)
         print("[信息]软件版本：",ver)
